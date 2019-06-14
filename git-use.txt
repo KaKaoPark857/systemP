@@ -1,0 +1,20 @@
+git init "저장소이름" : 저장소 생성 및 설정
+
+git commit : 로컬에 저장된 파일을 업로드
+git commit -m "코멘트" : 파일 코멘트
+
+git config --global user.email psw3732@gmail.com
+git config --global user.name psw3732
+
+git add "업로드할 파일이름.형식"  : 업로드한 파일 생성
+
+git remote add origin master https://github.com/psw3732/저장소이름.git
+git remote -v : 현재 저장소
+git remote remove origin : 현재 저장소 삭제
+
+git push origin master : 업로드
+git pull origin master : 다운로드
+
+tmux
+컨트롤 + b : 기본
++c 세션추가, % : 횡나누기, " : 종나누기
